@@ -42,7 +42,7 @@ legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_
 
 # Plot 4.4: Plot of global reactive power
 plot(as.numeric(strptime(paste(df$Date, df$Time), format = "%d/%m/%Y %H:%M:%S")), as.numeric(df$Global_reactive_power),
-     xlab = "datetime", ylab = "Voltage",
+     xlab = "datetime", ylab = "Global Reactive Power",
      col = "black",
      type = "l",
      xaxt = "n")
